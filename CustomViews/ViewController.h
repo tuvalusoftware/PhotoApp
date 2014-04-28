@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+
+
+@property (weak, nonatomic) IBOutlet UITableView *table;
+@property (retain) NSIndexPath* selectedIndexPath;
++(UIImage *)makeRoundCornerImage : (UIImage*) img : (int) cornerWidth : (int) cornerHeight;
 
 @end
