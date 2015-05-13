@@ -18,7 +18,7 @@
 
 #define kScrollPaddingRect              100.0f
 #define kScrollRefreshThreshold         50.0f
-#define kScrollResistanceCoefficient    1 / 600.0f
+#define kScrollResistanceCoefficient    1 / 400.0f
 
 -(void)setup{
     _animator = [[UIDynamicAnimator alloc] initWithCollectionViewLayout:self];
@@ -117,10 +117,10 @@
         layoutAttributes = [super layoutAttributesForItemAtIndexPath:indexPath];
     
     layoutAttributes.alpha = 1.0;
-     layoutAttributes.size = CGSizeMake(320 ,400);
+     layoutAttributes.size = CGSizeMake(SCREEN_WIDTH ,SCREEN_HEIGHT);
      layoutAttributes.zIndex =    indexPath.row;
     
-     layoutAttributes.center = CGPointMake(320/2, indexPath.row* 50);
+     layoutAttributes.center = CGPointMake(SCREEN_WIDTH/2, indexPath.row* 50);
     
     return layoutAttributes;
 }

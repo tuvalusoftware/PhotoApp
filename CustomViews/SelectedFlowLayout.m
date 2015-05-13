@@ -16,7 +16,7 @@
     
    
     
-    attributes.size = CGSizeMake(320 ,400);
+    attributes.size = CGSizeMake(SCREEN_WIDTH ,SCREEN_HEIGHT);
     
     
     if(self.selectedCellCoordinates.row == path.row)
@@ -36,7 +36,7 @@
        attributes.zIndex =    path.row;
     }
     
-    attributes.center = CGPointMake(320/2, 203);
+    attributes.center = CGPointMake(SCREEN_WIDTH/2, 203);
     
     
     

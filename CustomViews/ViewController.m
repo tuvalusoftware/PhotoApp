@@ -26,7 +26,7 @@ NSString *kMyCellID = @"cellID";
     [super viewDidLoad];
     
     
-    [self.table  registerNib:[UINib nibWithNibName:@"ExpandingCell" bundle:nil] forCellReuseIdentifier:kMyCellID];
+   // [self.table  registerNib:[UINib nibWithNibName:@"ExpandingCell" bundle:nil] forCellReuseIdentifier:kMyCellID];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

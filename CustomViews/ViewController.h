@@ -14,6 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *table;
 @property (retain) NSIndexPath* selectedIndexPath;
-+(UIImage *)makeRoundCornerImage : (UIImage*) img : (int) cornerWidth : (int) cornerHeight;
+ 
 
 @end

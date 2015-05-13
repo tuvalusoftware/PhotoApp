@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *titleLabel;
 
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
 @end

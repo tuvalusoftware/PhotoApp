@@ -12,6 +12,9 @@
 
 @property (nonatomic, assign) CGPoint center;
 @property (nonatomic, assign) CGFloat radius;
+
+
+/* value used when pinching to expand the cells */
 @property (nonatomic, assign) CGFloat scaleValue;
 @property (nonatomic, assign) NSInteger cellCount;
 @property (nonatomic, strong) UIDynamicAnimator *dynamicAnimator;

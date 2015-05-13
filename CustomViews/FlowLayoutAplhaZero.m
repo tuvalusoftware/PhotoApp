@@ -23,9 +23,9 @@
     
   
     
-    attributes.size = CGSizeMake(320 ,400);
+    attributes.size = CGSizeMake(SCREEN_WIDTH ,SCREEN_HEIGHT);
     attributes.zIndex =    path.row;
-    attributes.center = CGPointMake(320/2, path.row* 80+203);
+    attributes.center = CGPointMake(SCREEN_WIDTH/2, path.row* 80+203);
     
     return attributes;
 }

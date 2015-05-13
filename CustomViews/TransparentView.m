@@ -67,7 +67,7 @@
   
         
         
-    CGRect newFrame  = CGRectMake(tablFrame.origin.x, tablFrame.origin.y-distance,320, tablFrame.size.height +distance);
+    CGRect newFrame  = CGRectMake(tablFrame.origin.x, tablFrame.origin.y-distance,SCREEN_WIDTH, tablFrame.size.height +distance);
     
     
     
